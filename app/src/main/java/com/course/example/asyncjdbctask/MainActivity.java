@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 ResultSet result = stmt.executeQuery(
                         "SELECT * FROM City ORDER BY Name LIMIT 20 OFFSET 10;");
 
-                //for each record in City table add City to ArrayList and add city data to log
+                //for each record in result set add city to ArrayList and add city data to log
                 while (result.next()) {
                     name = result.getString("Name");
                     cities.add(name);
