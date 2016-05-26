@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView text;
     private ProgressDialog progDailog;
+    public static Integer NumberOfRecords = 20;
+    public static Integer Offset = 1000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,13 +28,13 @@ public class MainActivity extends AppCompatActivity {
 
         text = (TextView) findViewById(R.id.text01);
 
-        new JDBCTask(text).execute();
+        new JDBCTask(text).execute(NumberOfRecords, Offset);
     }
 
 
     //----------------------------------------------------------
     //AsyncTask inner class
-    private class JDBCTask extends AsyncTask<String, Void, ArrayList<String>> {
+    private class JDBCTask extends AsyncTask<Integer, Void, ArrayList<String>> {
         private TextView textView;
 
         String URL = "jdbc:mysql://frodo.bentley.edu:3306/world";
@@ -57,8 +59,10 @@ public class MainActivity extends AppCompatActivity {
 
         //runs on background thread
         @Override
-        protected ArrayList<String> doInBackground(String... strings) {
+        protected ArrayList<String> doInBackground(Integer... integers) {
             String name;
+            String records = integers[0].toString();
+            String offset = integers[1].toString();
 
             try { //load driver into VM memory
                 Class.forName("com.mysql.jdbc.Driver");
@@ -80,9 +84,9 @@ public class MainActivity extends AppCompatActivity {
 
             try {
                 ResultSet result = stmt.executeQuery(
-                        "SELECT * FROM City ORDER BY Name LIMIT 20 OFFSET 10;");
+                        "SELECT * FROM City ORDER BY Name LIMIT " + records + " OFFSET " + offset + ";");
 
-                //for each record in result set add city to ArrayList and add city data to log
+                //for each record in result set add city to ArrayList and add city to log
                 while (result.next()) {
                     name = result.getString("Name");
                     cities.add(name);
