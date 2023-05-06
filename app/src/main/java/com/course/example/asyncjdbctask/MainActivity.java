@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -14,7 +16,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     private TextView text;
     private ProgressDialog progDailog;
@@ -63,13 +65,6 @@ public class MainActivity extends Activity {
             String name;
             String records = integers[0].toString();
             String offset = integers[1].toString();
-
-            try { //load driver into VM memory
-                Class.forName("com.mysql.jdbc.Driver");
-            } catch (ClassNotFoundException e) {
-                Log.e("JDBC", "Did not load driver");
-
-            }
 
             try { //create connection to database
                 con = DriverManager.getConnection(
