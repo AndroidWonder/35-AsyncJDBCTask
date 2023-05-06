@@ -1,69 +1,153 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:2:1-20:12
+ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\b67f4328b4efe183ac5e80d64fdf86af\transformed\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\1503e021e497e2b52498680f9ec090d0\transformed\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\6e1ead6ef4f059ff5b1af8785655beb2\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\515a831aea8b59355f8c01d10899c52b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\dc97d6ce0b4fe9761cb7382a11c15f82\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\5126ec3cd82bc8ad63865a10789485d3\transformed\vectordrawable-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\85f86d78fcd14a3f534bf898212a06d9\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ffa6ff59be780381963989a9f5cf67d3\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\cf2d9462f68b160079d2c58bb5765b2c\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ce1e143fbf6a788a5607614ef07e4838\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\25c54dbd1d6c260a9555bf9b1bea2c0e\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\707124f09255db0449f16e3157a975ce\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\16ae93db70f263405d59490c2a6b20cc\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\e9005c5d91b82b121ada00270514f19d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\0caedb9e5bc6e504fc77c4b9fbb4b681\transformed\core-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ba64bbfc4e188b29cad08193e32b64ce\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\92dbb525ace016fe3f791d4316ca6187\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\a09312ca12f6a85a6670c7bd7cf3492b\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\768ce08253bf00b423db5e4145f1008b\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ba26b032571efe3047e393aed466c638\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\8d866ddde2cdf8a7053c54c56694d22e\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\1e817a723cd71ec47446a0a2e706c34c\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\bfacf2ee5ac7cac2e44ce4e891127432\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\4d1f2431f528cf60c503cb0d54814881\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\c057147ccced6033784e36101cd17c89\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\e6feb0a9bf1c6632f275ad2bd5042b74\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:2:1-20:12
 	package
-		ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:3:5-47
-		INJECTED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:2:11-69
+		INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:2:1-20:12
+		INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:2:1-20:12
+		INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:5:5-18:19
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
-	android:label
-		ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:8:9-41
+ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:5:5-18:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\0caedb9e5bc6e504fc77c4b9fbb4b681\transformed\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\0caedb9e5bc6e504fc77c4b9fbb4b681\transformed\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ba64bbfc4e188b29cad08193e32b64ce\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ba64bbfc4e188b29cad08193e32b64ce\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\0caedb9e5bc6e504fc77c4b9fbb4b681\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:9:9-35
-	android:allowBackup
-		ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:8:9-41
 	android:icon
-		ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:10:9-40
 activity#com.course.example.asyncjdbctask.MainActivity
-ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:11:9-17:20
+ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:11:9-17:20
+	android:exported
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:11:48-71
 	android:name
-		ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:11:19-47
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:12:13-16:29
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:11:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:12:13-16:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:13:17-69
+ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:13:17-69
 	android:name
-		ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:13:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
-		ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:15:27-74
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:19:4-65
+ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:19:4-65
 	android:name
-		ADDED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:19:21-63
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml:19:21-63
 uses-sdk
-INJECTED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\b67f4328b4efe183ac5e80d64fdf86af\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\b67f4328b4efe183ac5e80d64fdf86af\transformed\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\1503e021e497e2b52498680f9ec090d0\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\1503e021e497e2b52498680f9ec090d0\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\6e1ead6ef4f059ff5b1af8785655beb2\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\6e1ead6ef4f059ff5b1af8785655beb2\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\515a831aea8b59355f8c01d10899c52b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\515a831aea8b59355f8c01d10899c52b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\dc97d6ce0b4fe9761cb7382a11c15f82\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\dc97d6ce0b4fe9761cb7382a11c15f82\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\5126ec3cd82bc8ad63865a10789485d3\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\5126ec3cd82bc8ad63865a10789485d3\transformed\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\85f86d78fcd14a3f534bf898212a06d9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\85f86d78fcd14a3f534bf898212a06d9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ffa6ff59be780381963989a9f5cf67d3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ffa6ff59be780381963989a9f5cf67d3\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\cf2d9462f68b160079d2c58bb5765b2c\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\cf2d9462f68b160079d2c58bb5765b2c\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ce1e143fbf6a788a5607614ef07e4838\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ce1e143fbf6a788a5607614ef07e4838\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\25c54dbd1d6c260a9555bf9b1bea2c0e\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\25c54dbd1d6c260a9555bf9b1bea2c0e\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\707124f09255db0449f16e3157a975ce\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\707124f09255db0449f16e3157a975ce\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\16ae93db70f263405d59490c2a6b20cc\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\16ae93db70f263405d59490c2a6b20cc\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\e9005c5d91b82b121ada00270514f19d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\e9005c5d91b82b121ada00270514f19d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\0caedb9e5bc6e504fc77c4b9fbb4b681\transformed\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\0caedb9e5bc6e504fc77c4b9fbb4b681\transformed\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ba64bbfc4e188b29cad08193e32b64ce\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ba64bbfc4e188b29cad08193e32b64ce\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\92dbb525ace016fe3f791d4316ca6187\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\92dbb525ace016fe3f791d4316ca6187\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\a09312ca12f6a85a6670c7bd7cf3492b\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\a09312ca12f6a85a6670c7bd7cf3492b\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\768ce08253bf00b423db5e4145f1008b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\768ce08253bf00b423db5e4145f1008b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ba26b032571efe3047e393aed466c638\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\ba26b032571efe3047e393aed466c638\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\8d866ddde2cdf8a7053c54c56694d22e\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\8d866ddde2cdf8a7053c54c56694d22e\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\1e817a723cd71ec47446a0a2e706c34c\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\1e817a723cd71ec47446a0a2e706c34c\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\bfacf2ee5ac7cac2e44ce4e891127432\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\bfacf2ee5ac7cac2e44ce4e891127432\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\4d1f2431f528cf60c503cb0d54814881\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\4d1f2431f528cf60c503cb0d54814881\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\c057147ccced6033784e36101cd17c89\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Jim\.gradle\caches\transforms-3\c057147ccced6033784e36101cd17c89\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\e6feb0a9bf1c6632f275ad2bd5042b74\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Jim\.gradle\caches\transforms-3\e6feb0a9bf1c6632f275ad2bd5042b74\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\James\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jim\StudioProjects\35-AsyncJDBCTask\app\src\main\AndroidManifest.xml
