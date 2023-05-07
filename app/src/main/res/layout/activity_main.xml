@@ -9,7 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.course.example.asyncjdbctask.MainActivity">
 
-
+    <ProgressBar
+        android:id="@+id/progress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"/>
     <TextView
         android:id="@+id/text01"
         android:layout_width="wrap_content"

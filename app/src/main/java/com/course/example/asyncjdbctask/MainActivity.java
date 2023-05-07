@@ -5,6 +5,8 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,7 +21,8 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     private TextView text;
-    private ProgressDialog progDailog;
+
+    private ProgressBar bar2;
     public static Integer NumberOfRecords = 20;
     public static Integer Offset = 1000;
 
@@ -28,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        bar2 = (ProgressBar) findViewById(R.id.progress2);
         text = (TextView) findViewById(R.id.text01);
 
         new JDBCTask(text).execute(NumberOfRecords, Offset);
@@ -53,8 +57,7 @@ public class MainActivity extends AppCompatActivity {
         //start dialog widget
         @Override
         protected void onPreExecute() {
-            progDailog = ProgressDialog.show(MainActivity.this, "JDBC Demo",
-                    "Working....", true);
+            bar2.setVisibility(View.VISIBLE);
         }
 
         //runs on background thread
@@ -98,7 +101,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(ArrayList<String> cities) {
 
-            progDailog.dismiss();
+            bar2.setVisibility(View.INVISIBLE);
+
             //write data to UI
             for (int i = 0; i < cities.size(); i++) {
                 textView.append(cities.get(i) + "\n");
