@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
         private TextView textView;
 
         String URL = "jdbc:mysql://frodo.bentley.edu:3306/world";
-        String username = "Android";
-        String password = "android";
+        String username = "harry";
+        String password = "harry";
         Statement stmt = null;
         ArrayList<String> cities;
 
@@ -71,11 +71,6 @@ public class MainActivity extends AppCompatActivity {
                         password)){
                 stmt = con.createStatement();
 
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-
-            try {
                 ResultSet result = stmt.executeQuery(
                         "SELECT * FROM City ORDER BY Name LIMIT " + records + " OFFSET " + offset + ";");
 
@@ -86,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
                     Log.e("City", name);
                 }
             } catch (SQLException e) {
+                e.printStackTrace();
             }
             ;
 
