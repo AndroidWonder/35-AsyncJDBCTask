@@ -43,9 +43,7 @@ public class MainActivity extends AppCompatActivity {
         String username = "Android";
         String password = "android";
         Statement stmt = null;
-        Connection con = null;
         ArrayList<String> cities;
-
 
         public JDBCTask(TextView textView) {
             this.textView = textView;
@@ -66,11 +64,11 @@ public class MainActivity extends AppCompatActivity {
             String records = integers[0].toString();
             String offset = integers[1].toString();
 
-            try { //create connection to database
-                con = DriverManager.getConnection(
+            try  //create connection to database
+                (Connection con = DriverManager.getConnection(
                         URL,
                         username,
-                        password);
+                        password)){
                 stmt = con.createStatement();
 
             } catch (SQLException e) {

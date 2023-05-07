@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.course.example.asyncjdbctask.app-mergeDebugResources-19:/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "com.course.example.asyncjdbctask.app-mergeDebugResources-6:/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Jim\\StudioProjects\\35-AsyncJDBCTask\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
