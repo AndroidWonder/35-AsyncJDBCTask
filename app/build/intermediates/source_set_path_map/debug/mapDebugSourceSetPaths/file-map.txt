@@ -1,0 +1,10 @@
+com.course.example.asyncjdbctask.app-appcompat-1.0.0-0 C:\Users\jimpe\.gradle\caches\transforms-3\096228049204f5048d206e3418d820d9\transformed\appcompat-1.0.0\res
+com.course.example.asyncjdbctask.app-core-1.0.0-1 C:\Users\jimpe\.gradle\caches\transforms-3\34e7a8bb2cba23b37f6a6213d2133358\transformed\core-1.0.0\res
+com.course.example.asyncjdbctask.app-coordinatorlayout-1.0.0-2 C:\Users\jimpe\.gradle\caches\transforms-3\bf140819c742da62fde5ab5721c07ebb\transformed\coordinatorlayout-1.0.0\res
+com.course.example.asyncjdbctask.app-pngs-3 C:\Users\jimpe\AndroidStudioProjects\35-AsyncJDBCTask\app\build\generated\res\pngs\debug
+com.course.example.asyncjdbctask.app-resValues-4 C:\Users\jimpe\AndroidStudioProjects\35-AsyncJDBCTask\app\build\generated\res\resValues\debug
+com.course.example.asyncjdbctask.app-packageDebugResources-5 C:\Users\jimpe\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.course.example.asyncjdbctask.app-packageDebugResources-6 C:\Users\jimpe\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.course.example.asyncjdbctask.app-debug-7 C:\Users\jimpe\AndroidStudioProjects\35-AsyncJDBCTask\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.course.example.asyncjdbctask.app-debug-8 C:\Users\jimpe\AndroidStudioProjects\35-AsyncJDBCTask\app\src\debug\res
+com.course.example.asyncjdbctask.app-main-9 C:\Users\jimpe\AndroidStudioProjects\35-AsyncJDBCTask\app\src\main\res
